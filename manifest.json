@@ -1,15 +1,21 @@
 {
-  "manifest_version": 2,
   "name": "The Ultimate Battle",
-  "version": "1.0",
-  "description": "A BASIC Multiplication Table Practice for 3rd-5th grade.",
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
+  "short_name": "The Ultimate Battle",
+  "description": "A Basic Multiplication Table Practice for 3rd-5th grade.",
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  },
-  "kiosk_enabled": true,
-  "permissions": [
-    "fullscreen"
   ]
 }
