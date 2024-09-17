@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "The Ultimate Battle",
+  "version": "1.0",
+  "description": "A BASIC Multiplication Table Practice for 3rd-5th grade.",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "kiosk_enabled": true,
+  "permissions": [
+    "fullscreen"
+  ]
+}
